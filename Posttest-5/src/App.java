@@ -6,7 +6,7 @@ import Data.Robot;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class App {
+public final class App {
     public static void main(String[] args) throws Exception {
         ArrayList<Robot> RobotList = new ArrayList<Robot>();
         ArrayList<ServiceCenter> ServiceCenterList = new ArrayList<ServiceCenter>();
@@ -21,6 +21,7 @@ public class App {
         String menu1, menu2;
         int ubah,hapus;
 
+        final String dev = "Abdullah Azam";
         while (true) {
             System.out.print("""
                     =========== Menu =============
@@ -253,6 +254,7 @@ public class App {
 
                     } else if (menu1.equals("0")) {
                         System.out.println("Program telah berhenti");
+                        System.out.println("Program by : " + dev);
                         break;
                     } else {
                         System.out.println("Menu tidak ada");

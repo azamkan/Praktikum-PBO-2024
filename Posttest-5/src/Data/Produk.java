@@ -26,6 +26,25 @@ public class Produk extends Produser {
         this.SeriProduk = SeriProduk;
     }
     
+
+    @Override
+    public String getNamaProduser() {
+        return NamaProduser;
+    }
+    @Override
+    public void setNamaProduser(String NamaProduser){
+        this.NamaProduser = NamaProduser;
+    }
+    @Override
+    public void setAlamatProduser(String AlamatProduser){
+        this.AlamatProduser = AlamatProduser;
+    }
+    @Override
+    public String getAlamatProduser(String AlamatProduser){
+        return AlamatProduser;
+    }
+
+
     public void Lihat() {
         System.out.println("Nama Produser      : " + NamaProduser);
         System.out.println("Alamat Produser    : " + AlamatProduser);

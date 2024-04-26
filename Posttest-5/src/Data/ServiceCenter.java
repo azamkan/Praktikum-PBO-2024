@@ -11,19 +11,19 @@ public class ServiceCenter extends Produser {
         this.AlamatProduser = AlamatProduser;
     }
 
-    public String getNamaServiceCenter() {
+    public final String getNamaServiceCenter() {
         return NamaServiceCenter;
     }
 
-    public void setNamaServiceCenter(String NamaServiceCenter) {
+    public final void setNamaServiceCenter(String NamaServiceCenter) {
         this.NamaServiceCenter = NamaServiceCenter;
     }
 
-    public String getAlamatServiceCenter() {
+    public final String getAlamatServiceCenter() {
         return AlamatServiceCenter;
     }
 
-    public void setAlamatServiceCenter(String AlamatServiceCenter) {
+    public final void setAlamatServiceCenter(String AlamatServiceCenter) {
         this.AlamatServiceCenter = AlamatServiceCenter;
     }
 

@@ -16,21 +16,21 @@ public class Robot extends Produk {
         this.TanggalPembuatan = TanggalPembuatan;
     }
 
-    public void Lihat() {
+    public final void Lihat() {
         super.Lihat();
         System.out.println("Tanggal Pembuatan  : " + TanggalPembuatan);
     }
 
-    public void Lihat(String Lihat) {
+    public final void Lihat(String Lihat) {
         System.out.println("Nama Produk   : " + NamaProduk);
         System.out.println("Jenis Produk  : " + JenisProduk);
         System.out.println("Seri Produk   : " + SeriProduk);
     }
-    public void Lihat(int Lihat) {
+    public final void Lihat(int Lihat) {
         System.out.println("Nama Robot    : " + NamaProduk);
         System.out.println("Nama Produser : " + NamaProduser);
     }
-    public void LihatProduser() {
+    public final void LihatProduser() {
         System.out.println("Nama Produser      : " + NamaProduser);
         System.out.println("Alamat Produser    : " + AlamatProduser);
     }
